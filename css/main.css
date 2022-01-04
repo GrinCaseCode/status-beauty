@@ -192,6 +192,10 @@ form {
 }
 .btn-circle span span {
 	border-bottom: 1px solid #61C1B2;
+	transition: all 0.3s;
+}
+.btn-circle:hover span span {
+	border-color: transparent;
 }
 .billbord__wrap {
 	display: flex;
@@ -212,6 +216,10 @@ form {
 	align-items: center;
 	justify-content: center;
 	border-radius: 50%;
+	transition: all 0.3s;
+}
+.list-social a:hover {
+	transform: scale(1.04);
 }
 .list-social li {
 	margin-right: 33px;
@@ -570,6 +578,7 @@ form {
 }
 .image-consultation_2 {
 	margin-top: 200px;
+	margin-left: -50px;
 }
 .item-form input {
 	width: 100%;
