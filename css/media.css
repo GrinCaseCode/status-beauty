@@ -342,6 +342,16 @@
 	padding-top: 0;
 	padding-bottom: 30px;
 }
+.search-popup .item-form input {
+	padding-left: 15px;
+}
+.search-popup .btn-simple {
+	right: 15px;
+}
+.search-popup .btn-close {
+    right: 15px;
+    top: -63px;
+    }
 }
 
 /* Extra Small Devices, Phones */
