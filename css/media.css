@@ -350,7 +350,10 @@
 }
 .search-popup .btn-close {
     right: 15px;
-    top: -63px;
+    top: -45px;
+    }
+    .fixed .search-popup .btn-close {
+ top: -63px;
     }
 }
 
