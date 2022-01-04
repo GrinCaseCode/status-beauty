@@ -663,6 +663,7 @@ form {
 }
 .search-popup {
 	padding-top: 20px;
+	padding-bottom: 20px;
 	position: absolute;
 	top: 100%;
 	left: 0;
@@ -680,7 +681,7 @@ form {
 }
 .search-popup .btn-simple {
 	position: absolute;
-	top: 25px;
+	top: 7px;
 	right: 0;
 }
 .btn-simple {
@@ -713,7 +714,7 @@ form {
 }
 .search-popup .btn-close {
 	right: 0;
-	top: -43px;
+	top: -64px;
 	position: absolute;
 }
 .main-menu__bottom {
@@ -906,4 +907,7 @@ line-height: 204px;
 }
 .header.fixed .search-popup {
 	padding-top: 0;
+}
+.search-popup__wrap {
+	position: relative;
 }
