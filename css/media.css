@@ -202,6 +202,19 @@
 .header {
     padding-top: 15px;
 }
+.search-popup .btn-simple {
+	right: 15px;
+}
+.search-popup .btn-close {
+    right: 15px;
+    top: -45px;
+    }
+    .fixed .search-popup .btn-close {
+ top: -63px;
+    }
+    .header__wrap {
+    	position: static;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -345,16 +358,7 @@
 .search-popup .item-form input {
 	padding-left: 15px;
 }
-.search-popup .btn-simple {
-	right: 15px;
-}
-.search-popup .btn-close {
-    right: 15px;
-    top: -45px;
-    }
-    .fixed .search-popup .btn-close {
- top: -63px;
-    }
+
 }
 
 /* Extra Small Devices, Phones */
