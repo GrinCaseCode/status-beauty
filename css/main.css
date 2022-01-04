@@ -669,6 +669,7 @@ form {
 	width: 100%;
 	background-color: #fff;
 	display: none;
+	transition: all 0.3s;
 }
 .search-popup .item-form {
 	margin: 0;
@@ -902,4 +903,7 @@ line-height: 204px;
 }
 .image-simple img {
 	max-width: 100%;
+}
+.header.fixed .search-popup {
+	padding-top: 0;
 }
