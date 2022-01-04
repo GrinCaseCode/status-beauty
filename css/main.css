@@ -185,7 +185,7 @@ form {
 	color: #61C1B2;
 	text-transform: uppercase;
 	border: 3px solid #61C1B2;
-	display: flex;
+	display: flex; 
 	align-items: center;
 	justify-content: center;
 	border-radius: 50%;
