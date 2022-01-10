@@ -22,7 +22,7 @@
 	.table-price {
 		max-width: 1220px;
 	}
-	.about .descr-special {
+	.about .descr-special { 
 		left: 5%;
 	}
 	.title-special {
@@ -35,7 +35,7 @@
 	}
 	.advantages__content {
 		padding-left: 27%;
-	}
+	} 
 }
 @media only screen and (max-width : 1400px) {
 	.title-big {
