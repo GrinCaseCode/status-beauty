@@ -32,7 +32,7 @@ body {
 	margin: 0;
 	background-color: #fff;
 }
-button {
+button { 
 	cursor: pointer;
 }
 button, input, optgroup, select, textarea {
