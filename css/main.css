@@ -496,6 +496,28 @@ form {
 	display: block;
 	padding-top: 100%;
 }
+.item-insta::after {
+	position: absolute;
+	display: block;
+	content: " ";
+	width: 150px;
+	height: 150px;
+	bottom: 30px;
+	right: 50px;
+	background-image: url(../img/ic_heart.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	transition: all 0.3s;
+	opacity: 0;
+}
+.item-insta:hover::after {
+	opacity: 1;
+}
+.col-md-5 .item-insta::after {
+	bottom: 60px;
+	right: 180px;
+}
 .item-insta__image {
 	position: absolute;
 	top: 0;
@@ -551,6 +573,16 @@ form {
 	min-height: 132px;
 	display: block;
 	color: #132623;
+	transition: all 0.3s;
+}
+.item-team .title-middle {
+	transition: all 0.3s;
+	display: block;
+	color: #132623;
+}
+.item-team .title-middle:hover,
+.item-news .title-middle:hover {
+	color: #61C1B2;
 }
 .item-news .link-page {
 	margin: auto 0;
@@ -1012,4 +1044,7 @@ form {
 }
 .image-consultation_insta1 {
 	margin-top: -90px;
+}
+.footer .logo img {
+	filter: brightness(0.4);
 }

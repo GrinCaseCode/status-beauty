@@ -36,6 +36,16 @@
 	.advantages__content {
 		padding-left: 27%;
 	} 
+	.item-insta::after {
+	bottom: 15px;
+	right: 20px;
+	width: 130px;
+	height: 130px;
+}
+.col-md-5 .item-insta::after {
+	bottom: 40px;
+	right: 70px;
+}
 }
 @media only screen and (max-width : 1400px) {
 	.title-big {
@@ -108,6 +118,10 @@
 	.image-consultation_about {
 		margin-top: -75px;
 	}
+	.item-insta::after {
+    width: 110px;
+    height: 110px;
+}
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -273,6 +287,10 @@
 	.image-consultation_insta1 {
 		max-width: 70%;
 	}
+	.item-insta::after {
+    width: 75px;
+    height: 75px;
+}
 }
 
 /* Small Devices, Tablets */
@@ -644,6 +662,18 @@
 	.image-consultation_insta2 {
 		margin-left: -15px;
 	}
+	.item-insta::after {
+    width: 47px;
+    height: 47px;
+}
+.item-insta::after {
+    bottom: 9px;
+    right: 9px;
+}
+.col-md-5 .item-insta::after {
+    bottom: 40px;
+    right: 38px;
+}
 }
 
 /* Custom, iPhone Retina */
